@@ -1,6 +1,7 @@
 import json
 import requests
 from selenium import webdriver
+from time import sleep
 from bs4 import BeautifulSoup as soup
 
 def get_words(word):
